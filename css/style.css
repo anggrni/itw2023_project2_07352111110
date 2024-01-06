@@ -1,0 +1,354 @@
+:root {
+    --hover_border_ijo : rgb(20, 219, 20); 
+    --transisi : all 0.4s;
+    --hover2 : rgb(19, 87, 19);
+    --borderproduk : rgba(218, 228, 231, 0.794);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: rgb(27, 23, 23);
+}
+
+/*===========================NAVBAR==================================*/
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+
+.nav-item a:hover {
+    color: var(--hover_border_ijo);
+}
+
+.navbar-brand {
+    height: 50px;
+    width: 100px;
+}
+
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid var(--hover_border_ijo);
+    background-color: transparent ;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: none;
+}
+
+.btn1 {
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: var(--hover_border_ijo);
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    transition: var(--transisi);
+    margin: 0;
+}
+
+.btn1:hover {
+    background-color: var(--hover2);
+}
+
+.bi-bag-plus {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 6px;
+    transition: var(--transisi);
+}
+
+.bi-bag-plus:hover {
+    color: var(--hover_border_ijo);
+}
+/*===========================AND OF NAVBAR==================================*/
+
+
+/*=================================HOME=====================================*/
+.home {
+    background: url(../img/home.jpg) no-repeat;
+    background-size: cover;
+    height: 100hv;
+    width: 100%;
+}
+
+.home h1 {
+    font-size: 4.5rem;
+}
+
+.home h5 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.home p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.btn2 {
+    height: 40px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white ;
+    background: var(--hover_border_ijo);
+    border-radius: 50px;
+    transition: var(--transisi);
+}
+
+.btn2:hover {
+    background-color: var(--hover2);
+}
+
+.line1 {
+    height: 6px;
+    width: 30%;
+    background: var(--hover_border_ijo);
+    display: inline-block;
+}
+/*=================================AND OF HOME===================================*/
+
+
+
+/*================================== ABOUT ======================================*/
+.about {
+    background: url(../img/aboutUs.jpg) no-repeat;
+    background-size: cover;
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+}
+
+.kotak {
+    width: auto; 
+    height: auto; 
+    background-color: #F9F7C9; 
+    border-radius: 1rem;
+    box-sizing: border-box; 
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.about h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.btn3 {                                 /*Btn dibagian product juga pakai ini*/
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    height: 40px;
+    width: 140px;
+    outline: none;
+    border: none;
+    color: white ;
+    background: var(--hover_border_ijo);
+    border-radius: 50px;
+    transition: var(--transisi);
+}
+
+.btn3:hover {
+    background-color: var(--hover2);
+}
+  
+/* Container yang mengelilingi tombol */
+.container-btn3 {
+    display: flex;
+    justify-content: center;
+}
+/*=================================END OF ABOUT=====================================*/
+
+
+/*=================================SERVICE=====================================*/
+.service {
+    background: var(--hover_border_ijo);
+}
+
+.line2 {
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+.service h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+}
+
+.service .card {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer ;
+}
+
+.service i{
+    font-size: 45px;
+    color: var(--hover_border_ijo);
+}
+
+.service h2 {
+    font-weight: bold;
+    padding: 7px 0;
+
+
+}
+/*=================================END OF SERVICE=====================================*/
+
+/*=================================PRODUCT=======================================*/
+
+.product {
+    background-color: #F9F7C9;
+}
+
+.line {
+    height: 6px;
+    width: 30%;
+    background-color: var(--hover_border_ijo);
+    display: inline-block;
+}
+
+.product h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.product p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+
+.product .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.product .card-body {
+    border: 1px solid var(--borderproduk);
+}
+
+
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1 {
+    color: grey;
+}
+
+/*Btn dibagian product juga pakai di about, sourcecodenya ada dibagian about*/ 
+
+/*=================================END OF PRODUCT=======================================*/
+
+
+/*=================================CONTACT=======================================*/
+.contact {
+    background: var(--hover_border_ijo);
+    background-size: cover;
+    width: 100%;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.contact p {
+    color: white;
+}
+
+.circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.contact input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.contact textarea {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.btn4 {                                 
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    height: 40px;
+    width: 140px;
+    outline: none;
+    border: none;
+    color: rgb(90, 84, 84) ;
+    background: white;
+    border-radius: 50px;
+    transition: var(--transisi);
+    cursor: pointer;
+}
+
+.btn4:hover {
+    background-color: var(--borderproduk);
+}
+  
+/* Container yang mengelilingi tombol */
+.container-btn4 {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 1000px) {
+    /*About*/
+    .kotak { 
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .about p {
+    padding-left: auto;
+    padding-right: auto;
+    }
+    
+    
+    /*Welcome*/
+    .card {
+        margin-bottom: 2rem;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
