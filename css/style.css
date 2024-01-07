@@ -44,20 +44,6 @@ p {
     box-shadow: none;
 }
 
-.btn1 {
-    height: 45px;
-    outline: none;
-    border: none;
-    background-color: var(--hover_border_ijo);
-    color: white;
-    border-radius: 0px 10px 10px 0px;
-    transition: var(--transisi);
-    margin: 0;
-}
-
-.btn1:hover {
-    background-color: var(--hover2);
-}
 
 .bi-bag-plus {
     font-size: 30px;
@@ -311,6 +297,7 @@ p {
     font-size: 18px;
 }
 
+
 .contact input {
     height: 40px;
     width: 100%;
@@ -346,7 +333,7 @@ p {
 .btn4:hover {
     background-color: var(--borderproduk);
 }
-  
+
 /* Container yang mengelilingi tombol */
 .container-btn4 {
     display: flex;
