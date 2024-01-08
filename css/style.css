@@ -266,24 +266,32 @@ p {
 
 /*=================================CONTACT=======================================*/
 .contact {
-    background: var(--hover_border_ijo);
+    background: url(../img/kontak.jpg) no-repeat;
     background-size: cover;
     width: 100%;
 }
 
 .contact a {
-    color: white;
+    color: var(--hover2);
     text-decoration: none;
+}
+
+.line3 {
+    height: 6px;
+    width: 30%;
+    background-color: var(--hover2);
+    display: inline-block;
 }
 
 .contact h1 {
     font-size: 3rem;
     font-weight: bold;
-    color: white;
+    color: var(--hover2);
 }
 
 .contact p {
-    color: white;
+    color: var(--hover2);
+    text-align: justify;
 }
 
 .circle {
@@ -291,7 +299,7 @@ p {
     width: 60px;
     border-radius: 50%;
     background-color: white;
-    color: black;
+    color: var(--hover2);
     text-align: center;
     padding-top: 15px;
     font-size: 18px;
@@ -323,15 +331,15 @@ p {
     width: 140px;
     outline: none;
     border: none;
-    color: rgb(90, 84, 84) ;
-    background: white;
+    color: bl ;
+    background:var(--hover2) ;
     border-radius: 50px;
     transition: var(--transisi);
     cursor: pointer;
 }
 
 .btn4:hover {
-    background-color: var(--borderproduk);
+    background-color: var(--hover_border_ijo);
 }
 
 /* Container yang mengelilingi tombol */
